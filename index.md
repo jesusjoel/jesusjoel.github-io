@@ -1,4 +1,4 @@
-## identifique  edificios de gauayquil
+## identificacion 
 <div>Teachable Machine Image Model</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
@@ -10,7 +10,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "https://teachablemachine.withgoogle.com/models/kW-i7E9HD/";
+    const URL = "https://teachablemachine.withgoogle.com/models/UsL7Oh9aw/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -58,3 +58,9 @@
         }
     }
 </script>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-title="COMPUTACIÓN_PARALELA"
+  agent-id="026a2b00-5648-4966-b5e9-1389b52ef777"
+  language-code="ru"
+></df-messenger>
